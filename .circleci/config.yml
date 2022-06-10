@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run: npm i
-      - run: nmp run test
+      - run: npm run test
   
   analyze:
     docker:
